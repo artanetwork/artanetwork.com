@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -143,3 +144,20 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 FILEBROWSER_MAX_UPLOAD_SIZE = 104857600
 FILEBROWSER_DIRECTORY = 'uploads/'
+
+
+# Production settings
+if os.getenv('DEBUG') == 'false':
+    STRATIC_ROOT = '/usr/src/app/staticfiles/'
+    MEDIA_ROOT = '/usr/src/app/media/'
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'HOST': os.getenv('DB_HOST'),
+            'PORT': os.getenv('DB_PORT'),
+            'NAME': os.getenv('DB_NAME'),
+            'USER': os.getenv('DB_USER'),
+            'PASSWORD': os.getenv('DB_PASS'),
+        }
+    }
