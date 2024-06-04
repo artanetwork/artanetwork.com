@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_jalali',
+    'core.apps.CoreConfig',
     'accounts.apps.AccountsConfig',
     'homepage.apps.HomepageConfig',
 ]
