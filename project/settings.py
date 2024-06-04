@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django_jalali',
     'core.apps.CoreConfig',
     'accounts.apps.AccountsConfig',
+    'company.apps.CompanyConfig',
     'homepage.apps.HomepageConfig',
 ]
 
