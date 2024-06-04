@@ -721,7 +721,7 @@ section,
   --background-color: #000000;
   --heading-color: #ffffff;
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   position: relative;
   padding: 0;
   display: flex;
@@ -834,7 +834,7 @@ section,
 
 @media (min-width: 640px) {
   .hero .carousel-control-prev {
-    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -844,7 +844,7 @@ section,
 
 @media (min-width: 640px) {
   .hero .carousel-control-next {
-    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
