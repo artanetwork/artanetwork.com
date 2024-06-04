@@ -37,8 +37,8 @@
         <header id="header" class="header d-flex align-items-center fixed-top">
             <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-                <a href="{% url 'homepage:index' %}" class="logo d-none d-md-flex align-items-center">
-                    <img src="{{ company.logo.url }}" alt="">
+                <a href="{% url 'homepage:index' %}" class="logo d-flex align-items-center">
+                    <img src="{{ company.logo.url }}" alt="" class="d-none d-md-flex">
                     <h1 class="sitename">{{ company.name }}</h1>
                 </a>
 
