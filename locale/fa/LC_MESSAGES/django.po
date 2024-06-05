@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-04 18:23+0330\n"
+"POT-Creation-Date: 2024-06-05 15:17+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,51 +53,63 @@ msgstr ""
 
 #: .\accounts\models.py:63
 msgid "user"
-msgstr ""
+msgstr "کاربر"
 
 #: .\accounts\models.py:64
 msgid "users"
-msgstr ""
+msgstr "کاربران"
 
 #: .\company\apps.py:8
 msgid "company information"
-msgstr ""
+msgstr "اطلاعات شرکت"
 
 #: .\company\models.py:10
 msgid "company name"
-msgstr ""
+msgstr "نام شرکت"
 
 #: .\company\models.py:12
 msgid "company logo"
-msgstr ""
+msgstr "لوگوی شرکت"
 
 #: .\company\models.py:19 .\company\models.py:20
 msgid "company"
-msgstr ""
+msgstr "شرکت"
+
+#: .\core\translations.py:7
+msgid "Rotate 180°"
+msgstr "چرخش ۱۸۰ درجه"
+
+#: .\core\translations.py:10
+msgid "Actions"
+msgstr "عملیات"
+
+#: .\core\translations.py:17
+msgid "FileBrowser"
+msgstr "مدیر فایل"
 
 #: .\homepage\apps.py:8
 msgid "homepage settings"
-msgstr ""
+msgstr "تنظیمات صفحه اول"
 
 #: .\homepage\models.py:10
 msgid "slide title"
-msgstr ""
+msgstr "عنوان اصلی اسلاید"
 
 #: .\homepage\models.py:11
 msgid "slide subtitle"
-msgstr ""
+msgstr "عنوان فرعی اسلاید"
 
 #: .\homepage\models.py:13
 msgid "slide image"
-msgstr ""
+msgstr "تصویر اسلاید"
 
 #: .\homepage\models.py:24
 msgid "slide"
-msgstr ""
+msgstr "اسلاید"
 
 #: .\homepage\models.py:25
 msgid "slides"
-msgstr ""
+msgstr "اسلایدها"
 
 #: .\products\apps.py:8
 msgid "products management"
@@ -150,6 +162,30 @@ msgstr "محصول"
 #: .\products\models.py:33
 msgid "products"
 msgstr "محصولات"
+
+#: .\services\apps.py:8
+#, fuzzy
+#| msgid "products management"
+msgid "services management"
+msgstr "مدیریت محصولات"
+
+#: .\services\models.py:8
+msgid "service title"
+msgstr ""
+
+#: .\services\models.py:9
+#, fuzzy
+#| msgid "product description"
+msgid "service description"
+msgstr "توضیحات محصول"
+
+#: .\services\models.py:12
+msgid "service"
+msgstr ""
+
+#: .\services\models.py:13
+msgid "services"
+msgstr ""
 
 #: .\templates\admin\login.html:23
 msgid "Please correct the error below."
