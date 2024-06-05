@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 15:17+0330\n"
+"POT-Creation-Date: 2024-06-05 15:52+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,17 +75,27 @@ msgstr "لوگوی شرکت"
 msgid "company"
 msgstr "شرکت"
 
-#: .\core\translations.py:7
+#: .\core\translations\filebrowser.py:3
 msgid "Rotate 180°"
 msgstr "چرخش ۱۸۰ درجه"
 
-#: .\core\translations.py:10
+#: .\core\translations\filebrowser.py:4
 msgid "Actions"
 msgstr "عملیات"
 
-#: .\core\translations.py:17
+#: .\core\translations\filebrowser.py:5
 msgid "FileBrowser"
-msgstr "مدیر فایل"
+msgstr "مدیریت فایل"
+
+#: .\core\translations\filebrowser.py:6
+msgid "Permission denied."
+msgstr "عدم دسترسی"
+
+#: .\core\translations\filebrowser.py:8
+msgid ""
+"The Name will be normalized by converting or stripping all non-standard "
+"characters."
+msgstr ""
 
 #: .\homepage\apps.py:8
 msgid "homepage settings"
