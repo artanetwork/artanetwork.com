@@ -3,7 +3,8 @@
     "app": "artanetwork-com",
     "django": {
         "pythonVersion": "3.12",
-        "mirror": false
+        "mirror": false,
+        "compileMessages": true
     },
     "build": {
         "location": "germany"

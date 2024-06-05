@@ -1,6 +1,7 @@
 from django.views.generic import TemplateView
 
 from company.models import Company
+from products.models import Product
 
 from .models import Slide
 
@@ -14,4 +15,9 @@ class HomepageView(TemplateView):
         context = super().get_context_data(**kwargs)
         context['slides'] = Slide.objects.all()
         context['company'] = Company.objects.first()
+
+        products = Product.objects.all()
+        for product in products:
+            product.category_display = product.get_category_display()
+        context['products'] = products
         return context
