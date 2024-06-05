@@ -23,6 +23,10 @@ from filebrowser.sites import site as filebrowser_site
 
 from accounts.views import CustomLoginView, CustomPasswordChangeView
 
+admin.site.site_header = 'سایت آرتا شبکه صنعت رایان'
+admin.site.site_title = 'سایت آرتا شبکه صنعت رایان'
+admin.site.index_title = 'پنل مدیریت'
+
 urlpatterns = [
     path('admin/filebrowser/', filebrowser_site.urls),
     path('admin/login/', CustomLoginView.as_view(), name='login'),
