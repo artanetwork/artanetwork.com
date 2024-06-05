@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 15:52+0330\n"
+"POT-Creation-Date: 2024-06-05 17:05+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,36 +20,36 @@ msgstr ""
 
 #: .\accounts\admin.py:43
 msgid "Personal info"
-msgstr ""
+msgstr "مشخصات فردی"
 
 #: .\accounts\admin.py:45
 msgid "Permissions"
-msgstr ""
+msgstr "مجوزها"
 
 #: .\accounts\admin.py:56
 msgid "Important dates"
-msgstr ""
+msgstr "تاریخ‌های مهم"
 
 #: .\accounts\apps.py:8
 msgid "accounts"
-msgstr ""
+msgstr "کاربران"
 
 #: .\accounts\models.py:47
 msgid "email address"
-msgstr ""
+msgstr "نشانی ایمیل"
 
 #: .\accounts\models.py:51
 msgid ""
 "Required. 254 characters or fewer. Letters, digits and !#$%&'*+-/=?^_`{|}~."
-msgstr ""
+msgstr "الزامی. ۲۵۴ کاراکتر یا کمتر. فقط حروف، اعداد و !#$%&'*+-/=?^_`{|}~"
 
 #: .\accounts\models.py:54
 msgid "date joined"
-msgstr ""
+msgstr "تاریخ عضویت"
 
 #: .\accounts\models.py:55
 msgid "last login"
-msgstr ""
+msgstr "آخرین ورود"
 
 #: .\accounts\models.py:63
 msgid "user"
@@ -71,31 +71,21 @@ msgstr "نام شرکت"
 msgid "company logo"
 msgstr "لوگوی شرکت"
 
-#: .\company\models.py:19 .\company\models.py:20
+#: .\company\models.py:17
+msgid "company phone number"
+msgstr "شماره تلفن شرکت"
+
+#: .\company\models.py:18
+msgid "company email address"
+msgstr "نشانی ایمیل شرکت"
+
+#: .\company\models.py:21 .\company\models.py:22
 msgid "company"
 msgstr "شرکت"
 
 #: .\core\translations\filebrowser.py:3
-msgid "Rotate 180°"
-msgstr "چرخش ۱۸۰ درجه"
-
-#: .\core\translations\filebrowser.py:4
-msgid "Actions"
-msgstr "عملیات"
-
-#: .\core\translations\filebrowser.py:5
 msgid "FileBrowser"
 msgstr "مدیریت فایل"
-
-#: .\core\translations\filebrowser.py:6
-msgid "Permission denied."
-msgstr "عدم دسترسی"
-
-#: .\core\translations\filebrowser.py:8
-msgid ""
-"The Name will be normalized by converting or stripping all non-standard "
-"characters."
-msgstr ""
 
 #: .\homepage\apps.py:8
 msgid "homepage settings"
@@ -174,28 +164,24 @@ msgid "products"
 msgstr "محصولات"
 
 #: .\services\apps.py:8
-#, fuzzy
-#| msgid "products management"
 msgid "services management"
-msgstr "مدیریت محصولات"
+msgstr "مدیریت خدمات"
 
 #: .\services\models.py:8
 msgid "service title"
-msgstr ""
+msgstr "عنوان خدمت"
 
 #: .\services\models.py:9
-#, fuzzy
-#| msgid "product description"
 msgid "service description"
-msgstr "توضیحات محصول"
+msgstr "توضیحات خدمت"
 
 #: .\services\models.py:12
 msgid "service"
-msgstr ""
+msgstr "خدمت"
 
 #: .\services\models.py:13
 msgid "services"
-msgstr ""
+msgstr "خدمات"
 
 #: .\templates\admin\login.html:23
 msgid "Please correct the error below."
@@ -1481,3 +1467,12 @@ msgstr ""
 #: .\venv\Lib\site-packages\django_jalali\db\models.py:229
 msgid "Enter a valid date/time in YYYY-MM-DD HH:MM[:ss[.uuuuuu]] format."
 msgstr ""
+
+#~ msgid "Rotate 180°"
+#~ msgstr "چرخش ۱۸۰ درجه"
+
+#~ msgid "Actions"
+#~ msgstr "عملیات"
+
+#~ msgid "Permission denied."
+#~ msgstr "عدم دسترسی"

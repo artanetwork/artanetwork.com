@@ -14,6 +14,8 @@ class Company(models.Model):
         directory='company/',
         extensions=['.png'],
     )
+    phone = models.CharField(_('company phone number'), max_length=20)
+    email = models.EmailField(_('company email address'))
 
     class Meta:
         verbose_name = _('company')

@@ -1,9 +1,3 @@
-from django.utils.translation import gettext
+from django.utils.translation import gettext_lazy as _
 
-gettext('Rotate 180°')
-gettext('Actions')
-gettext('FileBrowser')
-gettext('Permission denied.')
-gettext(
-    'The Name will be normalized by converting or stripping all non-standard characters.'
-)
+msg100 = _('FileBrowser')
