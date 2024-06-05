@@ -11,3 +11,8 @@ def body_class(context):
 
     if request.path == '/':
         return 'index-page'
+
+
+@register.filter
+def multiply(value, arg):
+    return value * arg

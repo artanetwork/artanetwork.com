@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'company.apps.CompanyConfig',
     'homepage.apps.HomepageConfig',
     'products.apps.ProductsConfig',
+    'services.apps.ServicesConfig',
 ]
 
 MIDDLEWARE = [

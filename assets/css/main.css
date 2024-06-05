@@ -1098,7 +1098,7 @@ section,
   border-radius: 50px;
   z-index: 1;
   top: 10px;
-  right: -20px;
+  left: -20px;
   transition: 0.3s;
 }
 

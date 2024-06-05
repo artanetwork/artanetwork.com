@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load persianfilters %}
+{% load customfilters %}
 
 
 {% block content %}
@@ -48,7 +49,7 @@
                 <div class="container section-title" data-aos="fade-up">
                     <h2>محصولات</h2>
                     <p>جهت اطلاع از موجودی و قیمت لطفا با واحد فروش تماس حاصل فرمایید</p>
-                </div>
+                </div><!-- End Section Title -->
 
                 <div class="container">
 
@@ -84,6 +85,37 @@
                 </div>
 
             </section>
+
+            <!-- Services Section -->
+            <section id="services" class="services section">
+
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>خدمات</h2>
+                    <p>جهت مشاوره با کارشناسان ما با واحد فروش تماس حاصل فرمایید</p>
+                </div><!-- End Section Title -->
+
+                <div class="container">
+
+                    <div class="row gy-4">
+
+                        {% for service in services %}
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="{{ forloop.counter | multiply:100 }}">
+                            <div class="service-item position-relative">
+                                <div class="icon">
+                                    <i class="fa-solid fa-handshake"></i>
+                                </div>
+                                <h3>{{ service.title }}</h3>
+                                <p>{{ service.description }}</p>
+                            </div>
+                        </div><!-- End Service Item -->
+                        {% endfor %}
+
+                    </div>
+
+                </div>
+
+            </sectoin>
 
         </main>
 

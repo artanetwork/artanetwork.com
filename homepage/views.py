@@ -2,6 +2,7 @@ from django.views.generic import TemplateView
 
 from company.models import Company
 from products.models import Product
+from services.models import Service
 
 from .models import Slide
 
@@ -20,4 +21,6 @@ class HomepageView(TemplateView):
         for product in products:
             product.category_display = product.get_category_display()
         context['products'] = products
+
+        context['services'] = Service.objects.all()
         return context
